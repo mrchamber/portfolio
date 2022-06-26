@@ -18,14 +18,13 @@
                 <form action="#">
                     <h1>Sign Up</h1>
                     <p>Please, provide the info needed below to create an account</p>
-                    <input type="text" name="username" placeholder="Enter your username">
                     <input type="text" name="first name" placeholder="Enter your first name">
                     <input type="text" name="last name" placeholder="Enter your last name">
                     <input type="email" name="email" placeholder="Enter your email">
                     <input type="number" name="phone" placeholder="Enter your phone number">
                     <input type="password" name="pwd" placeholder="Enter your password">
                     <input type="text" name="repeatpwd" placeholder="Confirm your password">
-                    <button>Sign Up</button>
+                    <button type="submit">Sign Up</button>
                 </form>
             </div>
         </div>
