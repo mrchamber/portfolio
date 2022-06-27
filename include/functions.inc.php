@@ -84,3 +84,38 @@ function createUser($conn, $fname, $lname, $uname, $email, $phone, $pwd){
     mysqli_stmt_close($stmt);
     header("location: ../sign.php?error=none");
 }
+
+function emptyInputLogin($uname ,$pwd){
+    $result;
+    if (empty($uname) || empty($pwd)){
+        $result = true;
+    }
+    else{
+        $result = false;
+    }
+    return $result;
+}
+
+function loginUser($conn, $uname, $pwd){
+    $uidExists = uidExists($conn, $uname, $pwd);
+
+    if ($uidExists === false){
+        header("location: ../sign.php?error=wronglogin");
+        exit();
+    }
+
+    $pwdHashed = $uidExists['pwd'];
+    $checkPwd = password_verify($pwd, $pwdHashed);
+
+    if($checkPwd === false){
+        header("location: ../sign.php?error=wronglogin");
+        exit();
+    }
+    else if ($checkPwd === true){
+        session_start();
+        $_SESSION["userid"] = $uidExists["usersId"];
+        $_SESSION["uname"] = $uidExists["uname"];
+        header("location: ../index.php");
+        exit();
+    }
+}

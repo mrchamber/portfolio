@@ -1,14 +1,5 @@
 <?php
 session_start();
-$currentfile = basename($_SERVER['PHP_SELF']);
-$currenttime = time();
-
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
-
-ini_set('date.timezone', 'America/New_York');
-date_default_timezone_set('America/New_York');
-
 require_once "connect.inc.php";
 require_once "functions.inc.php";
 ?>
@@ -37,8 +28,9 @@ require_once "functions.inc.php";
                     <li><a href="index.php#contact" data-after="Contact">Contact</a></li>
                     <li><a href="sign.php" data-after="Feedback">Feedback</a></li>
                     <?php
-                    if (isset($_SESSION['ID'])) {
-                        echo($currentfile == "logout.php") ? "<li>a class='active' href='logout.php'>Logout</a></li>" : "<li><a href='logout.php'>Logout</a></li>";
+                    if (isset($_SESSION['uname'])) {
+                        echo "<li><a href='profile.php'>Profile</a></li>";
+                        echo "<li><a href='logout.inc.php'>Log out</a></li>";
                     }
                     ?>
                 </ul>

@@ -11,6 +11,16 @@
                     <input type="password" placeholder="Password">
                     <button type="submit" name="submit">Sign In</button>
                 </form>
+                <?php
+                if(isset($_GET["error"])){
+                    if ($_GET["error"] == "emptyinput"){
+                        echo "<p>Fill in all fields!</p>";
+                    }
+                    else if ($_GET["error"] == "wronglogin"){
+                        echo "<p>Incorrect login information</p>";
+                    }
+                }
+                ?>
             </div>
         </div>
         <div class="form sign-up-form active">
