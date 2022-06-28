@@ -190,22 +190,22 @@ require_once "include/header.inc.php";
                 <div class="icon"><img src="img/icons8-phone-100.png"></div>
                 <div class="contact-info">
                     <h1>Phone:</h1>
-                    <h2>(803)413-2890</h2>
+                    <h2>(123)456-7890</h2>
                 </div>
             </div>
             <div class="contact-item">
                 <div class="icon"><img src="img/icons8-mail-100.png"></div>
                 <div class="contact-info">
                     <h1>Email:</h1>
-                    <h2>marchambers2@gmail.com</h2>
+                    <h2>randomEmail@gmail.com</h2>
                 </div>
             </div>
             <div class="contact-item">
                 <div class="icon"><img src="img/icons8-map-100.png"></div>
                 <div class="contact-info">
                     <h1>Address:</h1>
-                    <h2>162 Thacher Loop</h2>
-                    <h2>Elgin, SC 29045</h2>
+                    <h2>123 Not Real St.</h2>
+                    <h2>AskforFull, SC 29045</h2>
                 </div>
             </div>
         </div>
