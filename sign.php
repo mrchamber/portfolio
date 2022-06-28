@@ -1,4 +1,4 @@
-<?php require_once "login.php"?><?php require_once "include/header.inc.php"?>
+<?php require_once "include/header.inc.php"?>
     <body>
     <section class="sign">
         <div class="sign-container">
