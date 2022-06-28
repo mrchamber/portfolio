@@ -1,29 +1,28 @@
-<?php require_once "include/header.inc.php"?>
-<body>
-<section class="sign">
-    <div class="sign-container">
-        <div class="form sign-in-form">
-            <div class="wrapper">
-                <form action="include/login.inc.php" method="post">
-                    <h1>Sign In</h1>
-                    <p>Please use your username and password to sign in</p>
-                    <input type="text" placeholder="Username">
-                    <input type="password" placeholder="Password">
-                    <button type="submit" name="submit">Sign In</button>
-                </form>
-                <?php
-                if(isset($_GET["error"])){
-                    if ($_GET["error"] == "emptyinput"){
-                        echo "<p>Fill in all fields!</p>";
-                    }
-                    else if ($_GET["error"] == "wronglogin"){
-                        echo "<p>Incorrect login information</p>";
-                    }
-                }
-                ?>
-            </div>
-        </div>
-        <div class="form sign-up-form active">
+<?php require_once "login.php"?><?php require_once "include/header.inc.php"?>
+    <body>
+    <section class="sign">
+        <div class="sign-container">
+            <div class="form sign-in-form">
+                <div class="wrapper">
+                    <form action="include/login.inc.php" method="post">
+                        <h1>Sign In</h1>
+                        <p>Please use your username and password to sign in</p>
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" name="submit">Sign In</button>
+                        <?php
+                        if(isset($_GET["error"])){
+                            if ($_GET["error"] == "emptyinput"){
+                                echo "<p>Fill in all fields!</p>";
+                            }
+                            else if ($_GET["error"] == "wronglogin"){
+                                echo "<p>Incorrect login information</p>";
+                            }
+                        }
+                        ?>
+                    </form>
+                </div>
+            </div>        <div class="form sign-up-form active">
             <div class="wrapper">
                 <form action="include/sign.inc.php" method="post">
                     <h1>Sign Up</h1>
