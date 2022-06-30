@@ -20,11 +20,12 @@ require_once "include/header.inc.php";
     <div class="services container">
         <div class="service-top">
             <h1 class="section-title">Serv<span>i</span>ces</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                officia deserunt mollit anim id est laborum.</p>
+            <p>So this website is a hub for all of my coding projects. My main passion is web development. So far,  my
+                most proficient coding languages are HTML, PHP, and CSS. However, I'm constantly learning new languages.
+                Right now, I'm learning Kotlin, Javascript, and React. My end goal for my career is to be a software
+                developer. Apart from that, I am a team-work-orientated person, but I can also work alone if needed.
+                To view my projects, you have to create an account or log in. Have fun exploring and, please, leave
+                some feedback.</p>
         </div>
         <div class="service-bottom">
             <div class="service-item">
@@ -81,13 +82,12 @@ require_once "include/header.inc.php";
         <div class="all-projects">
             <div class = "project-item">
                <div class="project-info">
-                   <h1>Project 1</h1>
-                   <a href="#"><h2>We need more money</h2></a>
+                   <h1>The Right Choice</h1>
+                   <a href="https://github.com/mrchamber/The_Right_Choice"><h2>Github</h2></a>
                    <p>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                       et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                       aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                       dolore eu fugiat nulla pariatur.
+                       Welcome to <em>The Right Choice</em>, a chose your own adventure game. Originally this project
+                       started in college. I wanted to recreate it in JavaScript to show off what I learned in the past
+                       few days. Make sure you choose the right path to decide your faith.
                    </p>
                </div>
                 <div class="project-img">
