@@ -80,7 +80,7 @@ require_once "include/header.inc.php";
             <div class = "project-item">
                <div class="project-info">
                    <h1>The Right Choice</h1>
-                   <a href="https://github.com/mrchamber/The_Right_Choice"><h2>Github</h2></a><h2> or </h2><a href="#"><h2>Demo</h2></a>
+                   <a href="https://github.com/mrchamber/The_Right_Choice" target="_blank"><h2>Github</h2></a><h2> or </h2><a href="https://therightchoice-production.up.railway.app/" target="_blank"><h2>Demo</h2></a>
                    <p>
                        Welcome to <em>The Right Choice</em>, a chose your own adventure game. Originally this project
                        started in college. I wanted to recreate it in JavaScript to show off what I learned in the past
@@ -94,7 +94,7 @@ require_once "include/header.inc.php";
             <div class = "project-item">
                 <div class="project-info">
                     <h1>Pokemon Mayhem</h1>
-                    <a href="https://github.com/mrchamber/PokemonMayhem"><h2>Github</h2></a><h2> or </h2><a href="https://pokemonmayhem-production.up.railway.app"><h2>Demo</h2></a>
+                    <a href="https://github.com/mrchamber/PokemonMayhem" target="_blank"><h2>Github</h2></a><h2> or </h2><a href="https://pokemonmayhem-production.up.railway.app" target="_blank"><h2>Demo</h2></a>
                     <p>
                         Welcome to <em>Pokemon Mayhem</em>, a spelling scramble game that compose of the 1st 150 Pokemon from
                         the Kanto region. Can you figure out that Pokemon in 30 seconds? More changes are coming soon.
