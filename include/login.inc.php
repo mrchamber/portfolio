@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST["submit"])){
+/* if(isset($_POST["submit"])){
     $uname = $_POST["uname"];
     $pwd = $_POST["pwd"];
 
@@ -16,4 +16,5 @@ if(isset($_POST["submit"])){
 else {
     header("location: ../sign.php");
     exit();
-}
+} */
+

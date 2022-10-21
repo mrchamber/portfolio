@@ -97,7 +97,7 @@ require_once "include/header.inc.php";
             <div class = "project-item">
                 <div class="project-info">
                     <h1>Project 2</h1>
-                    <a href="#"><h2>We need more money</h2></a>
+                    <a href="#"><h2>Pokemon Mayhem</h2></a>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

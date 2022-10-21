@@ -1,5 +1,5 @@
 <?php
-
+/*
 if (isset($_POST["submit"])){
     $fname = $_POST["firstname"];
     $lname = $_POST["lastname"];
@@ -39,3 +39,4 @@ else {
     header("location: ../sign.php");
     exit();
 }
+/*

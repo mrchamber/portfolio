@@ -1,5 +1,5 @@
 <?php
-
+/*
 function emptyInputSignup($fname, $lname, $uname, $email, $phone, $pwd, $repeatpwd){
     $result;
     if (empty($fname) || empty($lname) || empty($uname) || empty($email) || empty($phone) || empty($pwd) || empty($repeatpwd)){

@@ -1,7 +1,7 @@
 <?php
 session_start();
-require_once "connect.inc.php";
-require_once "functions.inc.php";
+//require_once "connect.inc.php";
+//require_once "functions.inc.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
