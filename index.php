@@ -91,28 +91,26 @@ require_once "include/header.inc.php";
                    </p>
                </div>
                 <div class="project-img">
-                    <img src="img/1_XthWUtD_NU-VJ7ESA2qX3A.jpeg">
+                    <img src="img/crossroad.jpg">
                 </div>
         </div>
             <div class = "project-item">
                 <div class="project-info">
-                    <h1>Project 2</h1>
-                    <a href="#"><h2>Pokemon Mayhem</h2></a>
+                    <h1>Pokemon Mayhem</h1>
+                    <a href="https://github.com/mrchamber/PokemonMayhem"><h2>Github</h2></a>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur.
+                        Welcome to <em>Pokemon Mayhem</em>, a spelling scramble game that compose of the 1st 150 Pokemon from
+                        the Kanto region. Can you figure out that Pokemon in 30 seconds? More changes are coming soon.
                     </p>
                 </div>
                 <div class="project-img">
-                    <img src="img/1_XthWUtD_NU-VJ7ESA2qX3A.jpeg">
+                    <img src="img/wdp.jpg">
                 </div>
             </div>
             <div class = "project-item">
                 <div class="project-info">
                     <h1>Project 3</h1>
-                    <a href="#"><h2>We need more money</h2></a>
+                    <a href="#"><h2>TDB</h2></a>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -127,7 +125,7 @@ require_once "include/header.inc.php";
             <div class = "project-item">
                 <div class="project-info">
                     <h1>Project 4</h1>
-                    <a href="#"><h2>We need more money</h2></a>
+                    <a href="#"><h2>TDB</h2></a>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -142,7 +140,7 @@ require_once "include/header.inc.php";
             <div class = "project-item">
                 <div class="project-info">
                     <h1>Project 5</h1>
-                    <a href="#"><h2>We need more money</h2></a>
+                    <a href="#"><h2>TDB</h2></a>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
