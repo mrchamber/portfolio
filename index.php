@@ -22,25 +22,32 @@ require_once "include/header.inc.php";
             <h1 class="section-title">Serv<span>i</span>ces</h1>
             <p>So this website is a hub for all of my coding projects. My main passion is web development. So far,  my
                 most proficient coding languages are HTML, PHP, and CSS. However, I'm constantly learning new languages.
-                Right now, I'm learning Kotlin, Javascript, and React. My end goal for my career is to be a software
+                Right now, I'm currently learning Javascript and React. My end goal for my career is to be a software
                 developer. Apart from that, I am a team-work-orientated person, but I can also work alone if needed.
-                To view my projects, you have to create an account or log in. Have fun exploring and, please, leave
-                some feedback.</p>
+                Listed down below are some skills/services that I can provide.
+            </p>
         </div>
         <div class="service-bottom">
             <div class="service-item">
                 <div class="icon"><img src="img/icons8-gears-96.png"></div>
                 <h2>Web Design</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur.
+                    As you can tell, web design is one of the skills I can offer. Right now, I mainly deal with
+                    front-end services. This consist of HTML, CSS, and Javascript. I do have some experience with
+                    SQL and PHP.
                 </p>
             </div>
             <div class="service-item">
                 <div class="icon"><img src="img/icons8-gears-96.png"></div>
-                <h2>Web Design</h2>
+                <h2>Git and GitHub</h2>
+                <p>
+                    I am proficient with Git and GitHub. Currently, I'm using GitHub to collaborate on projects with
+                    other peers and friends. Also, I'm using Railway for my website production/deployment.
+                </p>
+            </div>
+            <div class="service-item">
+                <div class="icon"><img src="img/icons8-gears-96.png"></div>
+                <h2>Creative Cloud</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -50,17 +57,7 @@ require_once "include/header.inc.php";
             </div>
             <div class="service-item">
                 <div class="icon"><img src="img/icons8-gears-96.png"></div>
-                <h2>Web Design</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur.
-                </p>
-            </div>
-            <div class="service-item">
-                <div class="icon"><img src="img/icons8-gears-96.png"></div>
-                <h2>Web Design</h2>
+                <h2>Code Academy</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -83,7 +80,7 @@ require_once "include/header.inc.php";
             <div class = "project-item">
                <div class="project-info">
                    <h1>The Right Choice</h1>
-                   <a href="https://github.com/mrchamber/The_Right_Choice"><h2>Github</h2></a>
+                   <a href="https://github.com/mrchamber/The_Right_Choice"><h2>Github</h2></a><h2> or </h2><a href="#"><h2>Demo</h2></a>
                    <p>
                        Welcome to <em>The Right Choice</em>, a chose your own adventure game. Originally this project
                        started in college. I wanted to recreate it in JavaScript to show off what I learned in the past
@@ -97,7 +94,7 @@ require_once "include/header.inc.php";
             <div class = "project-item">
                 <div class="project-info">
                     <h1>Pokemon Mayhem</h1>
-                    <a href="https://github.com/mrchamber/PokemonMayhem"><h2>Github</h2></a>
+                    <a href="https://github.com/mrchamber/PokemonMayhem"><h2>Github</h2></a><h2> or </h2><a href="https://pokemonmayhem-production.up.railway.app"><h2>Demo</h2></a>
                     <p>
                         Welcome to <em>Pokemon Mayhem</em>, a spelling scramble game that compose of the 1st 150 Pokemon from
                         the Kanto region. Can you figure out that Pokemon in 30 seconds? More changes are coming soon.
@@ -168,12 +165,11 @@ require_once "include/header.inc.php";
             <h1 class="section-title">About <span>Me</span></h1>
             <h2>Full Stack Developer</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur.
+                Hello, as stated before, my name is Mary. I graduated from Coastal Carolina in, Fall of 2020 with my
+                B.S. in Information Systems and Information Technology (double major). Currently, I am looking for
+                opportunities to deepen my knowledge in the Computer science field.
             </p>
-            <a href="#" class="cta">Download Resume</a>
+            <a href="docs/Resume%202022.pdf" class="cta">Download Resume</a>
         </div>
     </div>
 </section>
